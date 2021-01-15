@@ -7,7 +7,6 @@ This program performs object detection on input images of your choice. I employe
 
 ## Source files
 
- - `main.py` : Python file. This is the main file for this program.
  - `coco.names` : Txt file. This contains names.
  - `Neural.py` : Python file. Neural file.
  - `Robot.py` : Python file. Robot logic file.
@@ -29,7 +28,7 @@ These files were obtained by following the instruction described in **Darknet**'
 
 After you download those files above, simply execute the command below in the directory where 'yolo_od.py' is located.
 ```
- > main.py
+ > manage.py runserver
 ```
 
 Before you run this command, you need to prepare image files you want to try out. It's possible to specify multiple image files. If you do so, it performs object detection on each image file in a row.
